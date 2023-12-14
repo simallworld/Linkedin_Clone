@@ -211,3 +211,113 @@ footer {
     justify-content: center;
     margin-bottom: 40px;
 }
+
+@media only screen and (min-width: 390px) and (max-width: 600px) {
+    .container{
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    }
+
+    .logo{
+        width: 10px;
+    }
+
+    .head_button a{
+        font-size: 11px;
+        scroll-behavior: smooth;
+        font-weight: 600;
+    }
+
+    .hero-banner{
+        height: 150px;
+        width: 100%;
+    }
+
+    .hero-banner img{
+        height: 145px;
+        width: 95%;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+
+    .hero-avatar{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 33px;
+    }
+
+    .intro{
+        margin: 60px 15px;
+    }
+
+    .intro-name{
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .intro-desc{
+        font-size: 14px;
+    }
+
+    .about{
+        margin-top: -35px;
+        padding: 15px;
+        font-size: 18px;
+    }
+
+    .about p{
+        font-size: 14px;
+        /* text-align: justify; */
+        width: 92%;
+        line-height: 1.3;
+    }
+
+    .experience{
+        margin-top: -55px;
+        padding: 15px;
+    }
+
+    .exp-org-img{
+        height: 38px;
+        width: 70px;
+        margin-right: 10px;
+        margin-top: 6px;
+    }
+
+    .education{
+        margin-top: -35px;
+        padding: 15px;
+    }
+
+    .edu-name{
+        font-size: 14px;
+    }
+
+    .edu-img{
+        height: 40px;
+        width: 41px;
+        margin-right: 10px;
+        margin-top: 6px;
+    }
+
+    .contact{
+        margin-top: -40px;
+        padding: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .contact h2{
+        margin-bottom: -15px;
+    }
+
+    footer p{
+        margin-bottom: -15px;
+    }
+
+    footer p:hover{
+        color: pink;
+    }
+}
